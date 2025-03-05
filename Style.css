@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p-data{
+    border: 2px groove blue;
+   min-height: 200px;
+    width: 180px;
+    padding: 20px;
+    margin: 25px auto;
+    background-image: linear-gradient(yellow ,yellowgreen);
+    box-shadow: 0 0 7px black;
+
+}
+
+.p-data h1{
+    text-align: center;
+}
+
+.p-data p{
+    text-align: justify;
+}
+.p-data img{
+    width: 100%;
+}
+
+.my-cards{
+    border: 2px double green;
+    min-height: 50px;
+    width: 200px;
+    margin: 25px;
+    padding: 13px;
+
+}
+
+.cards{
+    display: flex;
+   min-height: 200px;
+   border: 2px groove green;
+   flex-direction: column;
+   width: 200px;
+   padding: 20px;
+   box-shadow: 0 0 7px black;
+
+}
+.cards img{
+    width: 100%;
+}
+
+.cards button{
+    background-color: black;
+    color: gold;
+}
